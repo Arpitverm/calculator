@@ -1,0 +1,37 @@
+.calculator{
+  background-color: rgba(0, 0, 0, 0.745);
+  border: 1px solid rgb(188, 184, 184);
+   width: 200px;
+   border-radius: 5px;
+}
+#name{
+  margin:0px 9px;
+  color: aliceblue;
+}
+#display{
+  margin:1px 20px 10px 10px;
+  background-color: rgb(132, 201, 108);
+ 
+  width :85%;
+  height:25px;
+  font-size: 15px;
+}
+.button-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  height:45px;
+  width:45px;
+  background-color:rgb(188, 184, 184) ;
+  margin:3px;
+  border-radius:4px;
+  transition: box-shadow 0.04s;
+}
+.button:hover{
+  transform:scale(1.1);
+}
+.button:active {
+  transform: scale(1); /* Scaling down further when the button is clicked */
+}
